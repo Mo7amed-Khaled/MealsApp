@@ -26,7 +26,7 @@ class _PizzaState extends State<Pizza> {
             ),
           ),
           SliverFixedExtentList(
-            itemExtent: 600.0,
+            itemExtent: 650.0,
             delegate: SliverChildListDelegate([
               Container(
                 color: Color(0xff263341),
@@ -156,7 +156,7 @@ class _PizzaState extends State<Pizza> {
                       children: <Widget>[
                         Container(
                           padding: EdgeInsets.all(6),
-                          margin: EdgeInsets.only(left: 15),
+                          margin: EdgeInsets.only(left: 7),
                           height: 30,
                           width: 230,
                           decoration: BoxDecoration(
@@ -177,7 +177,7 @@ class _PizzaState extends State<Pizza> {
 
                         Container(
                           padding: EdgeInsets.all(6),
-                          margin: EdgeInsets.only(left: 15),
+                          margin: EdgeInsets.only(left: 7),
                           height: 30,
                           width: 110,
                           decoration: BoxDecoration(

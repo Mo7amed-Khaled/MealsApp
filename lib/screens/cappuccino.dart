@@ -25,7 +25,7 @@ class _CappuccinoState extends State<Cappuccino> {
             ),
           ),
           SliverFixedExtentList(
-            itemExtent: 600.0,
+            itemExtent: 650.0,
             delegate: SliverChildListDelegate([
               Container(
                 color: Color(0xff263341),
@@ -186,7 +186,7 @@ class _CappuccinoState extends State<Cappuccino> {
                       children: <Widget>[
                         Container(
                           padding: EdgeInsets.all(6),
-                          margin: EdgeInsets.only(left: 15),
+                          margin: EdgeInsets.only(left: 7),
                           height: 30,
                           width: 230,
                           decoration: BoxDecoration(
@@ -207,7 +207,7 @@ class _CappuccinoState extends State<Cappuccino> {
 
                         Container(
                           padding: EdgeInsets.all(6),
-                          margin: EdgeInsets.only(left: 15),
+                          margin: EdgeInsets.only(left: 7),
                           height: 30,
                           width: 110,
                           decoration: BoxDecoration(
